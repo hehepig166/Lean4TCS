@@ -28,12 +28,12 @@ theorem Nat.prime_of_no_small_prime_dvd (n : ℕ) (hn : 2 ≤ n)
 
 /-- **A divisor of `a` also divides `a * p`.**
 If `q ∣ a`, then `q ∣ a * p`. -/
-theorem Nat.dvd_mul_of_dvd_left_prime (a p q : ℕ) (hq : q ∣ a) : q ∣ a * p := by
+theorem Nat.dvd_mul_of_dvd_left' (a p q : ℕ) (hq : q ∣ a) : q ∣ a * p := by
   sorry
 
 /-- **Least-prime-factor monotonicity along the decomposition.**
 If `p` is the least prime factor of `m`, `m = a * p`, and `a ≥ 2`,
 then `p ≤ minFac a`. -/
-theorem Nat.minFac_le_minFac_div (m : ℕ) (hm : 2 ≤ m) (a : ℕ) (ha : 2 ≤ a)
+theorem Nat.minFac_le_minFac_cofactor (m : ℕ) (a : ℕ) (ha : 2 ≤ a)
     (hap : m = a * minFac m) : minFac m ≤ minFac a := by
   sorry
