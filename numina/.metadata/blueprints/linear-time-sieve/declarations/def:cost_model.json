@@ -1,0 +1,10 @@
+{
+  "label": "def:cost_model",
+  "kind": "definition",
+  "title": "Abstract sieve step count",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "We use the following abstract cost model.\n    \\begin{enumerate}\n        \\item Advancing the outer loop from $i$ to $i+1$ costs $1$.\n        \\item Visiting one prime $p$ in the inner loop for the current index $i$ costs $1$.\n        \\item Writing $\\mathrm{lp}(i\\cdot p):=p$ has no extra cost beyond the visit itself.\n    \\end{enumerate}\n    Thus the total cost is\n    \\[\n        \\mathrm{cost}\n        =\n        (\\text{number of outer-loop iterations})\n        +\n        (\\text{number of inner-loop visits}).\n    \\]",
+  "proof": null
+}

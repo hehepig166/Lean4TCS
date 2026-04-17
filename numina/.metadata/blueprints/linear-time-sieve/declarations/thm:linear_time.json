@@ -1,0 +1,14 @@
+{
+  "label": "thm:linear_time",
+  "kind": "theorem",
+  "title": "Linear-time bound in the abstract cost model",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "def:cost_model",
+    "lem:all_inner_visits_bound",
+    "lem:outer_iterations_bound"
+  ],
+  "statement": "The total abstract cost of the linear sieve up to $n$ is at most\n    \\[\n        (n-1) + (2n-2) = 3n-3.\n    \\]\n    In particular, the sieve runs in linear time:\n    \\[\n        \\mathrm{cost} = O(n).\n    \\]",
+  "proof": "Sum the outer-loop cost ($n-1$ by \\ref{lem:outer_iterations_bound}) and the inner-loop cost (at most $2n-2$ by \\ref{lem:all_inner_visits_bound})."
+}

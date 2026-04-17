@@ -1,0 +1,13 @@
+{
+  "label": "lem:append_prime_preserves_prime_list",
+  "kind": "lemma",
+  "title": "Appending a newly found prime preserves the prime list property",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "def:prime_list_up_to",
+    "lem:lp_zero_implies_prime"
+  ],
+  "statement": "Suppose the outer-loop invariant holds at index $i$ and $\\mathrm{lp}(i)=0$.\n    Then appending $i$ to $\\mathrm{primes}$ preserves the statement that $\\mathrm{primes}$ is the strictly increasing list of all primes $\\le i$.",
+  "proof": "By \\ref{lem:lp_zero_implies_prime}, $i$ is prime. Since all primes $< i$ are already in the list and the list is sorted, appending $i$ maintains both properties."
+}

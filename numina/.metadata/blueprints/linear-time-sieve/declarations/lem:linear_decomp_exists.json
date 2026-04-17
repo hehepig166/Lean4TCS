@@ -1,0 +1,14 @@
+{
+  "label": "lem:linear_decomp_exists",
+  "kind": "lemma",
+  "title": "Existence of linear sieve decomposition",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:lpf_exists",
+    "lem:lpf_monotone_along_decomp",
+    "def:linear_decomp"
+  ],
+  "statement": "Every composite integer $m\\le n$ admits a linear sieve decomposition.",
+  "proof": "Let $p$ be the least prime factor of $m$ (exists by \\ref{lem:lpf_exists}) and set $a = m/p$. Then $(a,p)$ satisfies all conditions by \\ref{lem:lpf_monotone_along_decomp}."
+}

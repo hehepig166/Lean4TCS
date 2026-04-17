@@ -1,0 +1,12 @@
+{
+  "label": "lem:successful_visits_bound",
+  "kind": "lemma",
+  "title": "Bound on successful inner-loop visits",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "thm:every_composite_once"
+  ],
+  "statement": "The number of inner-loop visits that successfully write a value $\\mathrm{lp}(m)$ is at most the number of composite integers in $\\{2,\\dots,n\\}$.\n    In particular, it is at most $n-1$.",
+  "proof": "Each successful write corresponds to a unique composite by \\ref{thm:every_composite_once}, and there are at most $n-1$ composites in $\\{2,\\dots,n\\}$."
+}

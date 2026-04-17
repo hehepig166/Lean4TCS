@@ -1,0 +1,10 @@
+{
+  "label": "def:prime_list_up_to",
+  "kind": "definition",
+  "title": "Prime list up to $n$",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "Let $n \\in \\mathbb{N}$ and let $P$ be a finite list of natural numbers.\n    We say that $P$ is a \\emph{prime list up to $n$} if:\n    \\begin{enumerate}\n        \\item $P$ is strictly increasing;\n        \\item for every $p \\in P$, one has $2 \\le p \\le n$ and $p$ is prime;\n        \\item for every prime $p \\le n$, one has $p \\in P$.\n    \\end{enumerate}",
+  "proof": null
+}

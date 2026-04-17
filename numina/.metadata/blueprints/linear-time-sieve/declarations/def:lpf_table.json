@@ -1,0 +1,10 @@
+{
+  "label": "def:lpf_table",
+  "kind": "definition",
+  "title": "Least-prime-factor table up to $n$",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "Let $n \\in \\mathbb{N}$ and let $\\mathrm{lp} : \\{0,\\dots,n\\} \\to \\mathbb{N}$.\n    We say that $\\mathrm{lp}$ is a \\emph{least-prime-factor table up to $n$} if:\n    \\begin{enumerate}\n        \\item $\\mathrm{lp}(0)=0$ and $\\mathrm{lp}(1)=1$;\n        \\item for every $m$ with $2 \\le m \\le n$, the number $\\mathrm{lp}(m)$ is prime;\n        \\item for every $m$ with $2 \\le m \\le n$, one has $\\mathrm{lp}(m)\\mid m$;\n        \\item for every $m$ with $2 \\le m \\le n$ and every prime $q\\mid m$, one has $\\mathrm{lp}(m)\\le q$.\n    \\end{enumerate}",
+  "proof": null
+}

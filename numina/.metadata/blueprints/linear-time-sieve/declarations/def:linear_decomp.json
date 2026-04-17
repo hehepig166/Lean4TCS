@@ -1,0 +1,10 @@
+{
+  "label": "def:linear_decomp",
+  "kind": "definition",
+  "title": "Linear sieve decomposition",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "Let $m\\ge 2$.\n    A \\emph{linear sieve decomposition} of $m$ is a pair $(a,p)$ such that:\n    \\begin{enumerate}\n        \\item $p$ is prime;\n        \\item $m = a p$;\n        \\item $p$ is the least prime factor of $m$;\n        \\item $p \\le \\mathrm{lp}(a)$ whenever $\\mathrm{lp}(a)$ is defined.\n    \\end{enumerate}",
+  "proof": null
+}

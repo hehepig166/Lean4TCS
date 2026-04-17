@@ -1,0 +1,10 @@
+{
+  "label": "lem:divisor_lifts_to_product",
+  "kind": "lemma",
+  "title": "A smaller prime divisor of $a$ is also a divisor of $ap$",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "Let $a,p,q\\in\\mathbb{N}$.\n    If $q\\mid a$, then $q\\mid ap$.",
+  "proof": "If $q \\mid a$, then $a = qk$ for some $k$, so $ap = qkp$ and $q \\mid ap$."
+}

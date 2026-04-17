@@ -1,0 +1,14 @@
+{
+  "label": "thm:prime_list_correct",
+  "kind": "theorem",
+  "title": "Correctness of the prime list",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "def:prime_list_up_to",
+    "def:outer_invariant",
+    "lem:outer_invariant_step"
+  ],
+  "statement": "After the sieve terminates, the output list $\\mathrm{primes}$ is a prime list up to $n$.",
+  "proof": "By the same induction as for \\ref{thm:lpf_correct}. The invariant at $n+1$ ensures the prime list contains all primes up to $n$ and is strictly increasing."
+}

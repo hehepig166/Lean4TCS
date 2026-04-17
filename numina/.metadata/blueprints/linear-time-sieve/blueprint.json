@@ -3,5 +3,142 @@
   "branch": "numina/linear-time-sieve",
   "source_type": "latex",
   "notes": "",
-  "entries": []
+  "entries": [
+    {
+      "label": "def:prime_list_up_to",
+      "kind": "definition",
+      "title": "Prime list up to $n$"
+    },
+    {
+      "label": "def:lpf_table",
+      "kind": "definition",
+      "title": "Least-prime-factor table up to $n$"
+    },
+    {
+      "label": "def:sieve_state",
+      "kind": "definition",
+      "title": "Sieve state"
+    },
+    {
+      "label": "def:cost_model",
+      "kind": "definition",
+      "title": "Abstract sieve step count"
+    },
+    {
+      "label": "def:linear_decomp",
+      "kind": "definition",
+      "title": "Linear sieve decomposition"
+    },
+    {
+      "label": "def:outer_invariant",
+      "kind": "definition",
+      "title": "Outer-loop invariant"
+    },
+    {
+      "label": "lem:lpf_exists",
+      "kind": "lemma",
+      "title": "Existence of a least prime factor"
+    },
+    {
+      "label": "lem:no_small_divisor_prime",
+      "kind": "lemma",
+      "title": "No smaller prime divisor implies primality"
+    },
+    {
+      "label": "lem:divisor_lifts_to_product",
+      "kind": "lemma",
+      "title": "A smaller prime divisor of $a$ is also a divisor of $ap$"
+    },
+    {
+      "label": "lem:lpf_monotone_along_decomp",
+      "kind": "lemma",
+      "title": "Least-prime-factor monotonicity along the decomposition"
+    },
+    {
+      "label": "lem:write_correct",
+      "kind": "lemma",
+      "title": "Correctness of a write"
+    },
+    {
+      "label": "lem:composite_generated_early",
+      "kind": "lemma",
+      "title": "A composite is generated before its own outer iteration"
+    },
+    {
+      "label": "lem:lp_zero_implies_prime",
+      "kind": "lemma",
+      "title": "If $\\mathrm{lp}(i)=0$, then $i$ is prime"
+    },
+    {
+      "label": "lem:append_prime_preserves_prime_list",
+      "kind": "lemma",
+      "title": "Appending a newly found prime preserves the prime list property"
+    },
+    {
+      "label": "lem:inner_loop_correct",
+      "kind": "lemma",
+      "title": "Inner-loop writes are correct"
+    },
+    {
+      "label": "lem:outer_invariant_step",
+      "kind": "lemma",
+      "title": "Preservation of the outer-loop invariant"
+    },
+    {
+      "label": "thm:lpf_correct",
+      "kind": "theorem",
+      "title": "Correctness of the least-prime-factor table"
+    },
+    {
+      "label": "thm:prime_list_correct",
+      "kind": "theorem",
+      "title": "Correctness of the prime list"
+    },
+    {
+      "label": "lem:linear_decomp_exists",
+      "kind": "lemma",
+      "title": "Existence of linear sieve decomposition"
+    },
+    {
+      "label": "lem:linear_decomp_unique",
+      "kind": "lemma",
+      "title": "Uniqueness of linear sieve decomposition"
+    },
+    {
+      "label": "thm:every_composite_once",
+      "kind": "theorem",
+      "title": "Every composite is generated exactly once"
+    },
+    {
+      "label": "lem:successful_visits_bound",
+      "kind": "lemma",
+      "title": "Bound on successful inner-loop visits"
+    },
+    {
+      "label": "lem:extra_visit_bound",
+      "kind": "lemma",
+      "title": "At most one extra terminating inner-loop visit per outer index"
+    },
+    {
+      "label": "lem:all_inner_visits_bound",
+      "kind": "lemma",
+      "title": "Bound on all inner-loop visits"
+    },
+    {
+      "label": "lem:outer_iterations_bound",
+      "kind": "lemma",
+      "title": "Bound on outer-loop iterations"
+    },
+    {
+      "label": "thm:linear_time",
+      "kind": "theorem",
+      "title": "Linear-time bound in the abstract cost model"
+    },
+    {
+      "label": "cor:verified_linear_sieve",
+      "kind": "corollary",
+      "title": "Verified linear sieve"
+    }
+  ],
+  "leanModule": "Numina.Blueprints.LinearTimeSieve"
 }

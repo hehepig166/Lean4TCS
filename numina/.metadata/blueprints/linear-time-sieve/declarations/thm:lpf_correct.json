@@ -1,0 +1,14 @@
+{
+  "label": "thm:lpf_correct",
+  "kind": "theorem",
+  "title": "Correctness of the least-prime-factor table",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "def:lpf_table",
+    "def:outer_invariant",
+    "lem:outer_invariant_step"
+  ],
+  "statement": "After the sieve terminates, the output table $\\mathrm{lp}$ is a least-prime-factor table up to $n$.",
+  "proof": "By induction on the outer index $i$ from $2$ to $n+1$, using \\ref{lem:outer_invariant_step} at each step. The invariant at $n+1$ implies every entry in $\\mathrm{lp}$ is correct."
+}

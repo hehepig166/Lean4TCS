@@ -1,0 +1,14 @@
+{
+  "label": "lem:outer_invariant_step",
+  "kind": "lemma",
+  "title": "Preservation of the outer-loop invariant",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "def:outer_invariant",
+    "lem:append_prime_preserves_prime_list",
+    "lem:inner_loop_correct"
+  ],
+  "statement": "Suppose the outer-loop invariant holds at index $i$ with $2\\le i\\le n$.\n    After processing index $i$ by the linear sieve rule, the resulting state satisfies the outer-loop invariant at index $i+1$.",
+  "proof": "The inner loop correctly fills $\\mathrm{lp}$ for composites of the form $ip$ by \\ref{lem:inner_loop_correct}. If $i$ is a newly discovered prime, appending it is justified by \\ref{lem:append_prime_preserves_prime_list}. All four conditions of the invariant at $i+1$ follow."
+}

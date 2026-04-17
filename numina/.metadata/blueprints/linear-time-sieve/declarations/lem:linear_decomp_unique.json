@@ -1,0 +1,12 @@
+{
+  "label": "lem:linear_decomp_unique",
+  "kind": "lemma",
+  "title": "Uniqueness of linear sieve decomposition",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "def:linear_decomp"
+  ],
+  "statement": "Let $m$ be composite.\n    Then there is at most one linear sieve decomposition $(a,p)$ of $m$.",
+  "proof": "If $(a_1, p_1)$ and $(a_2, p_2)$ are both decompositions, then both $p_1$ and $p_2$ are the least prime factor of $m$, so $p_1 = p_2$. Then $a_1 = m/p_1 = m/p_2 = a_2$."
+}

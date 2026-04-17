@@ -1,0 +1,13 @@
+{
+  "label": "thm:every_composite_once",
+  "kind": "theorem",
+  "title": "Every composite is generated exactly once",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:linear_decomp_exists",
+    "lem:linear_decomp_unique"
+  ],
+  "statement": "During the execution of the linear sieve up to $n$, each composite number $m\\le n$ is written exactly once in the table $\\mathrm{lp}$.",
+  "proof": "Existence of a write follows from \\ref{lem:linear_decomp_exists}; uniqueness follows from \\ref{lem:linear_decomp_unique}."
+}

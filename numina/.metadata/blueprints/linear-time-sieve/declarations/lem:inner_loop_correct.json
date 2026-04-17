@@ -1,0 +1,12 @@
+{
+  "label": "lem:inner_loop_correct",
+  "kind": "lemma",
+  "title": "Inner-loop writes are correct",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:write_correct"
+  ],
+  "statement": "Fix an outer index $i$ satisfying the invariant.\n    For every visited prime $p$ with $ip\\le n$ and $p\\le \\mathrm{lp}(i)$, the assignment $\\mathrm{lp}(ip):=p$ is correct.",
+  "proof": "Direct application of \\ref{lem:write_correct}."
+}

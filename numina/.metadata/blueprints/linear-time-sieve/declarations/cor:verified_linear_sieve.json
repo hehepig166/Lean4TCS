@@ -1,0 +1,14 @@
+{
+  "label": "cor:verified_linear_sieve",
+  "kind": "corollary",
+  "title": "Verified linear sieve",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "thm:lpf_correct",
+    "thm:prime_list_correct",
+    "thm:linear_time"
+  ],
+  "statement": "The formalized Euler sieve computes the correct least-prime-factor table and the correct list of primes up to $n$, and it satisfies a linear-time bound in the abstract unit-cost model.",
+  "proof": "Combine \\ref{thm:lpf_correct}, \\ref{thm:prime_list_correct}, and \\ref{thm:linear_time}."
+}

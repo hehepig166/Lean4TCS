@@ -1,0 +1,12 @@
+{
+  "label": "lem:write_correct",
+  "kind": "lemma",
+  "title": "Correctness of a write",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:lpf_monotone_along_decomp"
+  ],
+  "statement": "Let $i\\ge 2$ and let $p$ be a prime such that $p \\le \\mathrm{lp}(i)$.\n    Then $p$ is the least prime factor of $ip$.",
+  "proof": "Since $p$ is prime and $p \\mid ip$, it suffices to show no prime $q < p$ divides $ip$. Any such $q$ would divide $i$ (since $q < p$ and $p$ is prime), contradicting $p \\le \\mathrm{lp}(i)$."
+}

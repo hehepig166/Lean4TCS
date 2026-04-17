@@ -1,0 +1,10 @@
+{
+  "label": "lem:outer_iterations_bound",
+  "kind": "lemma",
+  "title": "Bound on outer-loop iterations",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "The outer loop runs exactly once for each $i\\in\\{2,\\dots,n\\}$.\n    Hence the number of outer-loop iterations is $n-1$.",
+  "proof": "The outer loop iterates $i = 2, 3, \\dots, n$, which is exactly $n-1$ iterations."
+}

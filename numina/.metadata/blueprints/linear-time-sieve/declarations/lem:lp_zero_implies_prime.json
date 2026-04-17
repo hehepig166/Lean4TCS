@@ -1,0 +1,13 @@
+{
+  "label": "lem:lp_zero_implies_prime",
+  "kind": "lemma",
+  "title": "If $\\mathrm{lp}(i)=0$, then $i$ is prime",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:no_small_divisor_prime",
+    "lem:composite_generated_early"
+  ],
+  "statement": "Let $i\\ge 2$.\n    Assume the outer-loop invariant holds at index $i$, and suppose $\\mathrm{lp}(i)=0$ at that moment.\n    Then $i$ is prime.",
+  "proof": "If $i$ were composite, by \\ref{lem:composite_generated_early} the sieve would have already set $\\mathrm{lp}(i) \\ne 0$. So no prime $p < i$ divides $i$, and by \\ref{lem:no_small_divisor_prime}, $i$ is prime."
+}

@@ -1,0 +1,12 @@
+{
+  "label": "lem:no_small_divisor_prime",
+  "kind": "lemma",
+  "title": "No smaller prime divisor implies primality",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:lpf_exists"
+  ],
+  "statement": "Let $m\\ge 2$.\n    If there is no prime $p < m$ with $p\\mid m$, then $m$ is prime.",
+  "proof": "By \\ref{lem:lpf_exists}, $m$ has a least prime factor $p$. Since no prime less than $m$ divides $m$, we must have $p = m$, so $m$ is prime."
+}

@@ -1,0 +1,10 @@
+{
+  "label": "lem:extra_visit_bound",
+  "kind": "lemma",
+  "title": "At most one extra terminating inner-loop visit per outer index",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "For each outer index $i$, the inner loop performs at most one additional visit that does not produce a successful write:\n    namely, the first visit at which either $ip>n$ or $p>\\mathrm{lp}(i)$.",
+  "proof": "The inner loop terminates at the first failing condition, producing at most one non-writing visit per outer index."
+}

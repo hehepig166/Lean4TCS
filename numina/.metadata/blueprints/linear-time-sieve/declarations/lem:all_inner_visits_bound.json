@@ -1,0 +1,13 @@
+{
+  "label": "lem:all_inner_visits_bound",
+  "kind": "lemma",
+  "title": "Bound on all inner-loop visits",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:successful_visits_bound",
+    "lem:extra_visit_bound"
+  ],
+  "statement": "The total number of inner-loop visits is at most\n    \\[\n        (\\text{number of composites }\\le n) + (n-1).\n    \\]\n    In particular, it is at most $2n-2$.",
+  "proof": "Add the bound from \\ref{lem:successful_visits_bound} (at most $n-1$ successful visits) and from \\ref{lem:extra_visit_bound} (at most $n-1$ extra visits)."
+}

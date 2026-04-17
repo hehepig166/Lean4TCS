@@ -1,0 +1,13 @@
+{
+  "label": "lem:composite_generated_early",
+  "kind": "lemma",
+  "title": "A composite is generated before its own outer iteration",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [
+    "lem:lpf_monotone_along_decomp",
+    "lem:write_correct"
+  ],
+  "statement": "Let $m\\ge 2$ be composite, and let $p$ be its least prime factor.\n    Write $m = ap$.\n    Then $a < m$, and when the sieve processes the outer index $a$, the inner loop reaches the prime $p$ and writes $\\mathrm{lp}(m):=p$.",
+  "proof": "Since $m$ is composite, $p < m$, so $a = m/p \\ge 2$ and $a < m$. By \\ref{lem:lpf_monotone_along_decomp}, $p \\le \\mathrm{lp}(a)$, so the inner loop visits $p$. By \\ref{lem:write_correct}, the write is correct."
+}

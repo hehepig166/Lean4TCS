@@ -1,0 +1,10 @@
+{
+  "label": "def:sieve_state",
+  "kind": "definition",
+  "title": "Sieve state",
+  "leanDeclaration": "",
+  "leanFile": "",
+  "uses": [],
+  "statement": "A sieve state consists of:\n    \\begin{enumerate}\n        \\item a bound $n$;\n        \\item a current outer index $i$ with $2 \\le i \\le n+1$;\n        \\item a partially filled table $\\mathrm{lp}$ on $\\{0,\\dots,n\\}$;\n        \\item a finite list $\\mathrm{primes}$;\n        \\item a cost counter $\\mathrm{cost}\\in\\mathbb{N}$.\n    \\end{enumerate}",
+  "proof": null
+}
