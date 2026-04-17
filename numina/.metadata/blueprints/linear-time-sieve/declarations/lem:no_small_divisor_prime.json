@@ -2,8 +2,8 @@
   "label": "lem:no_small_divisor_prime",
   "kind": "lemma",
   "title": "No smaller prime divisor implies primality",
-  "leanDeclaration": "",
-  "leanFile": "",
+  "leanDeclaration": "Nat.prime_of_no_small_prime_dvd",
+  "leanFile": "Lean4TCS/LinearTimeSieve/NumberTheory.lean",
   "uses": [
     "lem:lpf_exists"
   ],

@@ -2,8 +2,8 @@
   "label": "lem:lpf_monotone_along_decomp",
   "kind": "lemma",
   "title": "Least-prime-factor monotonicity along the decomposition",
-  "leanDeclaration": "",
-  "leanFile": "",
+  "leanDeclaration": "Nat.minFac_le_minFac_cofactor",
+  "leanFile": "Lean4TCS/LinearTimeSieve/NumberTheory.lean",
   "uses": [
     "lem:divisor_lifts_to_product"
   ],
