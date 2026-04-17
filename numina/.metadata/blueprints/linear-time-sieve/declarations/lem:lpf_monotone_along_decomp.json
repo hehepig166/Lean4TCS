@@ -8,5 +8,6 @@
     "lem:divisor_lifts_to_product"
   ],
   "statement": "Let $m\\ge 2$, and let $p$ be the least prime factor of $m$.\n    Suppose $m=ap$.\n    Then every prime divisor $q$ of $a$ satisfies $p\\le q$.\n    In particular, if $a\\ge 2$, then $p \\le \\mathrm{lp}(a)$.",
-  "proof": "If $q$ is a prime divisor of $a$, then by \\ref{lem:divisor_lifts_to_product}, $q \\mid ap = m$. Since $p$ is the least prime factor of $m$, we have $p \\le q$."
+  "proof": "If $q$ is a prime divisor of $a$, then by \\ref{lem:divisor_lifts_to_product}, $q \\mid ap = m$. Since $p$ is the least prime factor of $m$, we have $p \\le q$.",
+  "assessment": "EASY"
 }

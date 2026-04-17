@@ -6,5 +6,6 @@
   "leanFile": "",
   "uses": [],
   "statement": "For every integer $m\\ge 2$, there exists a prime $p$ such that $p\\mid m$ and\n    for every prime $q\\mid m$ one has $p\\le q$.",
-  "proof": "By well-ordering of the naturals, the set of prime divisors of $m$ is nonempty (since $m \\ge 2$) and has a minimum element."
+  "proof": "By well-ordering of the naturals, the set of prime divisors of $m$ is nonempty (since $m \\ge 2$) and has a minimum element.",
+  "assessment": "EASY"
 }

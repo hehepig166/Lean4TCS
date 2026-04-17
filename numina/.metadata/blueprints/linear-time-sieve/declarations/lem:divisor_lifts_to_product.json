@@ -6,5 +6,6 @@
   "leanFile": "",
   "uses": [],
   "statement": "Let $a,p,q\\in\\mathbb{N}$.\n    If $q\\mid a$, then $q\\mid ap$.",
-  "proof": "If $q \\mid a$, then $a = qk$ for some $k$, so $ap = qkp$ and $q \\mid ap$."
+  "proof": "If $q \\mid a$, then $a = qk$ for some $k$, so $ap = qkp$ and $q \\mid ap$.",
+  "assessment": "EASY"
 }
